@@ -4,9 +4,11 @@ import ProjectCard from "./components/ProjectCard";
 export class Project {
   title: string;
   imageSrc: string;
-  constructor(title:string, imageSrc:string) {
+  releaseYear: string;
+  constructor(title:string, imageSrc:string, releaseYear: string) {
     this.title = title;
     this.imageSrc = imageSrc;
+    this.releaseYear = releaseYear;
   }
 }
 
@@ -14,13 +16,13 @@ export default function App() {
   
   const projectsList: Project[] = [];
 
-  projectsList.push(new Project("Test project 1", "assets/something1.png"));
-  projectsList.push(new Project("Test project 2", "assets/something2.png"));
-  projectsList.push(new Project("Test project 3", "assets/something3.png"));
+  projectsList.push(new Project("Test project 1", "assets/something1.png", "2001"));
+  projectsList.push(new Project("Test project 2", "assets/something2.png", "2002"));
+  projectsList.push(new Project("Test project 3", "assets/something3.png", "2003"));
   
   return (
     <>
-      <h1 className="title">A Deno Game</h1>
+      <h1 className="title">Dino Cuturdic</h1>
       <section className="sidebar">
         <p>aboutme</p>
         <a href="https://github.com/d3noDL">github</a>
@@ -30,7 +32,7 @@ export default function App() {
       <div className="projects">
         {
           projectsList.map((project) => {
-            return <ProjectCard title={project.title} imageSrc={project.imageSrc}></ProjectCard>
+            return <ProjectCard title={project.title} imageSrc={project.imageSrc} releaseYear={project.releaseYear}></ProjectCard>
           })
         }
       </div>
