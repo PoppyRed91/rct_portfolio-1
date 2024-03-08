@@ -41,7 +41,19 @@ export default function App() {
   const projectsList: Project[] = [];
 
   for (const project of ProjectsJson) {
-    projectsList.push(new Project(project.id, project.title, project.thumbSrc, project.description, project.roles, project.screenshots, project.releaseYear, project.videoLink, project.downloadLink))
+    projectsList.push(
+      new Project(
+            project.id, 
+            project.title, 
+            project.thumbSrc, 
+            project.description, 
+            project.roles, 
+            project.screenshots, 
+            project.releaseYear, 
+            project.videoLink, 
+            project.downloadLink
+            )
+          )
   }
 
   const [currentProject, setCurrentProject] = useState<Project>(new Project("","","","",[],[],"","",""));
@@ -52,14 +64,18 @@ export default function App() {
 
   return (
     <>
-      <section className="title">Dino Cuturdic</section>
-      <section className="sidebar">
+      <section> title
+        
+      </section>
+
+      <section> side bar
         <p>aboutme</p>
         <a href="https://github.com/d3noDL">github</a>
         <a href="https://www.linkedin.com/in/dino-cuturdic/">linkedin</a>
         <a href="mailto:dino@cuturdic.com">email</a>
       </section>
-      <section className="project-thumbs">
+
+      <section> project thumbs
         {
           projectsList.map((project) => {
             return <ProjectThumb project={project} onclick={handleThumbClick}></ProjectThumb>
