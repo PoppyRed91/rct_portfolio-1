@@ -1,0 +1,233 @@
+[
+    {
+        "id":"10",
+        "title": "The Black Mass",
+        "thumbSrc": "assets/thumbnails/mass.png",
+        "description": "Spoopy exorcism gaem!",
+        "roles": [
+            "Programming",
+            "UX",
+            "Other cool stuff"
+        ],
+        "screenshots": [
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png"
+        ],
+        "releaseYear": "202X",
+        "videoLink": "https://youtube.com/",
+        "downloadLink": "https://dino.cuturdic.com/"
+    },
+    {
+        "id":"9",
+        "title": "Evolytes VR",
+        "thumbSrc": "assets/thumbnails/evolytes.png",
+        "description": "Evolytes but in VR and with multiplayer!",
+        "roles": [
+            "Programming",
+            "UX",
+            "Other cool stuff"
+        ],
+        "screenshots": [
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png"
+        ],
+        "releaseYear": "2023",
+        "videoLink": "https://youtube.com/",
+        "downloadLink": "https://dino.cuturdic.com/"
+    },
+    {
+        "id":"8",
+        "title": "Hyper Graduation",
+        "thumbSrc": "assets/thumbnails/hyper.png",
+        "description": "Hyper graduation!",
+        "roles": [
+            "Programming",
+            "UX",
+            "Other cool stuff"
+        ],
+        "screenshots": [
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png"
+        ],
+        "releaseYear": "2023",
+        "videoLink": "https://youtube.com/",
+        "downloadLink": "https://dino.cuturdic.com/"
+    },
+    {
+        "id":"7",
+        "title": "Gunny Saves Xmas",
+        "thumbSrc": "assets/thumbnails/gunny.png",
+        "description": "Gunny will not have it!",
+        "roles": [
+            "Programming",
+            "UX",
+            "Other cool stuff"
+        ],
+        "screenshots": [
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png"
+        ],
+        "releaseYear": "2022",
+        "videoLink": "https://youtube.com/",
+        "downloadLink": "https://dino.cuturdic.com/"
+    },
+    {
+        "id":"6",
+        "title": "Dreamers: Echo in the Night",
+        "thumbSrc": "assets/thumbnails/dreamers.png",
+        "description": "Spoopy island ghost gaem!",
+        "roles": [
+            "Programming",
+            "UX",
+            "Other cool stuff"
+        ],
+        "screenshots": [
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png"
+        ],
+        "releaseYear": "2022",
+        "videoLink": "https://youtube.com/",
+        "downloadLink": "https://dino.cuturdic.com/"
+    },
+    {
+        "id":"5",
+        "title": "Echo in the Night",
+        "thumbSrc": "assets/thumbnails/echo.png",
+        "description": "Dreamers but without dreaming!",
+        "roles": [
+            "Programming",
+            "UX",
+            "Other cool stuff"
+        ],
+        "screenshots": [
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png"
+        ],
+        "releaseYear": "2022",
+        "videoLink": "https://youtube.com/",
+        "downloadLink": "https://dino.cuturdic.com/"
+    },
+    {
+        "id":"4",
+        "title": "Knightboy",
+        "thumbSrc": "assets/thumbnails/knightboy.png",
+        "description": "Cute black n white platformer but also sad!",
+        "roles": [
+            "Programming",
+            "UX",
+            "Other cool stuff"
+        ],
+        "screenshots": [
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png"
+        ],
+        "releaseYear": "2018",
+        "videoLink": "https://youtube.com/",
+        "downloadLink": "https://dino.cuturdic.com/"
+    },
+    {
+        "id":"3",
+        "title": "The Incredible Whippersnappers",
+        "thumbSrc": "assets/thumbnails/whippersnappers.png",
+        "description": "Cute platformer with bebez!",
+        "roles": [
+            "Programming",
+            "UX",
+            "Other cool stuff"
+        ],
+        "screenshots": [
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png"
+        ],
+        "releaseYear": "2018",
+        "videoLink": "https://youtube.com/",
+        "downloadLink": "https://dino.cuturdic.com/"
+    },
+    {
+        "id":"2",
+        "title": "A Synthetic Nation",
+        "thumbSrc": "assets/thumbnails/synthetic.png",
+        "description": "Moar boxes!",
+        "roles": [
+            "Programming",
+            "UX",
+            "Other cool stuff"
+        ],
+        "screenshots": [
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png"
+        ],
+        "releaseYear": "2017",
+        "videoLink": "https://youtube.com/",
+        "downloadLink": "https://dino.cuturdic.com/"
+    },
+    {
+        "id":"1",
+        "title": "The Winship Conundrum",
+        "thumbSrc": "assets/thumbnails/winship.png",
+        "description": "Boxes!",
+        "roles": [
+            "Programming",
+            "UX",
+            "Other cool stuff"
+        ],
+        "screenshots": [
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png"
+        ],
+        "releaseYear": "2017",
+        "videoLink": "https://youtube.com/",
+        "downloadLink": "https://dino.cuturdic.com/"
+    },
+    {
+        "id":"0",
+        "title": "Boxy Quest",
+        "thumbSrc": "assets/thumbnails/boxy.png",
+        "description": "Experimental platformer for mobile",
+        "roles": [
+            "Programming",
+            "UX",
+            "Other cool stuff"
+        ],
+        "screenshots": [
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png",
+            "assets/screenshots/screenshot.png"
+        ],
+        "releaseYear": "2015",
+        "videoLink": "https://youtube.com/",
+        "downloadLink": "https://dino.cuturdic.com/"
+    }
+]
