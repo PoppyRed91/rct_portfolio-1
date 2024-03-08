@@ -16,9 +16,15 @@ export default function App() {
   
   const projectsList: Project[] = [];
 
-  projectsList.push(new Project("Test project 1", "assets/something1.png", "2001"));
-  projectsList.push(new Project("Test project 2", "assets/something2.png", "2002"));
-  projectsList.push(new Project("Test project 3", "assets/something3.png", "2003"));
+  projectsList.push(new Project("The Black Mass", "assets/mass.png", "202X"));
+  projectsList.push(new Project("Evolytes VR", "assets/evolytes.png", "2023"));
+  projectsList.push(new Project("Dreamers: Echo in the Night", "assets/dreamers.png", "2022"));
+  projectsList.push(new Project("Echo in the Night", "assets/echo.png", "2022"));
+  projectsList.push(new Project("Knightboy", "assets/knightboy.png", "2018"));
+  projectsList.push(new Project("The Incredible Whippersnappers", "assets/whippersnappers.png", "2018"));
+  projectsList.push(new Project("A Synthetic Nation", "assets/synthetic.png", "2017"));
+  projectsList.push(new Project("The Winship Conundrum", "assets/winship.png", "2017"));
+  projectsList.push(new Project("Boxy Quest", "assets/boxy.png", "2015"));
   
   return (
     <>
