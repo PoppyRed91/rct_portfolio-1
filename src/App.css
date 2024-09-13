@@ -81,7 +81,7 @@ body {
 }
 
 .project_thumb_img:hover {
-  transform: scale(1.5);
+  transform: scale(1.7);
   transition: transform 0.3s ease;
 }
 .project_thumb_img {

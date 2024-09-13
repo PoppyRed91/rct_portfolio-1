@@ -1,15 +1,16 @@
+import { Route, Routes, useNavigate } from "react-router-dom";
 import "./App.css";
+import LandingPage from "./Pages/LandingPage";
+import { NavLink } from "react-router-dom";
 import ProjectsJson from "../public/projects.json";
-import ProjectThumb from "./components/ProjectThumb";
-import ProjectDetails from "./components/ProjectDetails";
-import { useRef, useState } from "react";
-
 import HomeIcon from "./icons/home.svg";
 import DiscordIcon from "./icons/discord.svg";
 import GithubIcon from "./icons/github.svg";
 import LinkedinIcon from "./icons/linkedin.svg";
 import MailIcon from "./icons/mail.svg";
 import CvIcon from "./icons/cv.svg";
+import ProjectDetails from "./Pages/ProjectDetailsPage";
+import { useState } from "react";
 
 export class Project {
   id: string;
@@ -44,9 +45,10 @@ export class Project {
   }
 }
 
-export default function App() {
-  const projectsList: Project[] = [];
+export let projectsList: Project[] = [];
 
+export default function App() {
+  projectsList = [];
   for (const project of ProjectsJson) {
     projectsList.push(
       new Project(
@@ -67,24 +69,29 @@ export default function App() {
     new Project("", "", "", "", [], [], "", "", "")
   );
 
-  const [canShowDetails, setCanShowDetails] = useState(false);
-
+  const navigate = useNavigate();
   function handleThumbClick(project: Project) {
     setCurrentProject(project);
-    setCanShowDetails(true);
+    navigate(`${project.id}`);
   }
 
   return (
     <>
       <section className="title_container">
-        <img
-          src={"/assets/title/title.png"}
-          alt="aDenoGame Logo"
-          className="title_logo"
-        />
+        <NavLink to="/">
+          <img
+            src={"/assets/title/title.png"}
+            alt="aDenoGame Logo"
+            className="title_logo"
+          />
+        </NavLink>
         <section className="icons_container">
-          <img src={HomeIcon} className="icons"></img>
-          <img src={DiscordIcon} className="icons"></img>
+          <NavLink to="/">
+            <img src={HomeIcon} className="icons"></img>
+          </NavLink>
+          <a href="https://discordapp.com/users/d3nodl" target="_blank">
+            <img src={DiscordIcon} className="icons"></img>
+          </a>
           <a href="https://github.com/d3noDL" target="_blank">
             <img src={GithubIcon} className="icons"></img>
           </a>
@@ -102,35 +109,21 @@ export default function App() {
           </a>
         </section>
       </section>
-
-      <section className="description_container">
-        <p className="description">
-          Hi, my name is Dino, I'm a
-          <span className="span_unity"> Unity developer</span>,
-          <span className="span_gamedev"> game programmer</span>,
-          <span className="span_network"> network programmer</span> and
-          <span className="span_designer"> technical designer</span>. <br></br>I
-          excel at prototyping in Unity, developing game-play systems and tools
-          to bridge the gap between designers and developers. Games, gaming and
-          the gaming industry were and still are my passion and obsession.
-        </p>
-      </section>
-      <p className="project-thumbs_projects">Projects</p>
-      <section className="project-thumbs_container">
-        {projectsList.map((project) => {
-          return (
-            <ProjectThumb
-              project={project}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <LandingPage
               onclick={handleThumbClick}
-            ></ProjectThumb>
-          );
-        })}
-      </section>
-      <section>
-        {canShowDetails && (
-          <ProjectDetails project={currentProject}></ProjectDetails>
-        )}
-      </section>
+              projectsList={projectsList}
+            />
+          }
+        ></Route>
+        <Route
+          path="/:id"
+          element={<ProjectDetails projectToDisplay={currentProject} />}
+        ></Route>
+      </Routes>
     </>
   );
 }
