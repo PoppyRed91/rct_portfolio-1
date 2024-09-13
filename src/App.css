@@ -29,6 +29,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 2rem 10rem;
+  text-align: center;
 }
 
 .description {
