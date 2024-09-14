@@ -4,7 +4,7 @@
     "title": "The Black Mass",
     "thumbSrc": "assets/thumbnails/mass.png",
     "description": "Cases of possession deemed too controversial for official organisations.",
-    "roles": ["Programming ", " UX", " Art Direction", " Level Design"],
+    "roles": ["Programming, ", " UI, ", " Modeling, ", " Level Design"],
     "screenshots": [
       "assets/screenshots/TheBlackMass/theblackmass1.jpg",
       "assets/screenshots/TheBlackMass/theblackmass2.jpg",
@@ -24,10 +24,10 @@
     "thumbSrc": "assets/thumbnails/evolytes.png",
     "description": "Evolytes but in VR and with multiplayer!",
     "roles": [
-      "Programming ",
-      "UI ",
-      "Gameplay ",
-      "Network Programming ",
+      "Programming, ",
+      "UI, ",
+      "Gameplay, ",
+      "Network Programming, ",
       "Modeling "
     ],
     "screenshots": [
@@ -50,7 +50,7 @@
     "title": "Hyper Graduation",
     "thumbSrc": "assets/thumbnails/hyper.png",
     "description": "Hyper graduation!",
-    "roles": ["Programming ", "UI ", "Modeling "],
+    "roles": ["Programming, ", "UI, ", "Modeling "],
     "screenshots": [
       "assets/screenshots/Graduation/graduation1.jpg",
       "assets/screenshots/Graduation/graduation2.jpg",
@@ -67,10 +67,10 @@
     "thumbSrc": "assets/thumbnails/dreamers.png",
     "description": "Uncanny cases of astral projections!",
     "roles": [
-      "Gameplay Programming ",
-      "Network Programming ",
-      "UI ",
-      "Level Design "
+      "Gameplay Programming, ",
+      "Network Programming, ",
+      "UI, ",
+      "Level Design, "
     ],
     "screenshots": [
       "assets/screenshots/Dreamers/dreamers1.jpg",
@@ -80,15 +80,15 @@
       "assets/screenshots/Dreamers/dreamers5.jpg"
     ],
     "releaseYear": "2022",
-    "videoLink": "https://adenogame/",
-    "downloadLink": "https://adenogame/"
+    "videoLink": "https://adenogame.com/",
+    "downloadLink": "https://adenogame.com/"
   },
   {
     "id": "5",
     "title": "Echo in the Night",
     "thumbSrc": "assets/thumbnails/echo.png",
     "description": "Dreamers but without dreaming!",
-    "roles": ["Gameplay Programming ", "UI ", "Modeling ", "Level Design "],
+    "roles": ["Gameplay Programming, ", "UI, ", "Modeling, ", "Level Design "],
     "screenshots": [
       "assets/screenshots/Echo/echo1.jpg",
       "assets/screenshots/Echo/echo2.jpg",
@@ -98,8 +98,8 @@
       "assets/screenshots/Echo/echo6.jpg"
     ],
     "releaseYear": "2022",
-    "videoLink": "https://adenogame/",
-    "downloadLink": "https://adenogame/"
+    "videoLink": "https://adenogame.com/",
+    "downloadLink": "https://adenogame.com/"
   },
 
   {
@@ -107,14 +107,14 @@
     "title": "The Winship Conundrum",
     "thumbSrc": "assets/thumbnails/winship.png",
     "description": "Boxes!",
-    "roles": ["Programming", "UX", "Other cool stuff"],
+    "roles": ["Programming, ", "UX, ", "Level Design "],
     "screenshots": [
       "assets/screenshots/Winship/win1.jpg",
       "assets/screenshots/Winship/win2.jpg",
       "assets/screenshots/Winship/win3.jpg"
     ],
     "releaseYear": "2017",
-    "videoLink": "https://adenogame/",
-    "downloadLink": "https://adenogame/"
+    "videoLink": "https://adenogame.com/",
+    "downloadLink": "https://adenogame.com/"
   }
 ]

@@ -1,6 +1,18 @@
 body {
   background-color: rgb(1, 10, 26);
-  display: grid;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .title_container {
@@ -86,6 +98,7 @@ body {
 }
 .project_thumb_img {
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .project_thumb_year {
@@ -93,25 +106,30 @@ body {
 }
 
 .project_details {
-  color: aliceblue;
   font-family: "Press Start 2P", system-ui;
   line-height: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 3rem;
 }
 
 .project_details_title {
   font-size: 2rem;
   margin-top: 2rem;
+  color: #57c84f;
 }
 
 .project_details_description {
   font-size: 1.3rem;
+  color: aliceblue;
+  text-align: center;
 }
 
 .project_details_roles {
   font-size: 1rem;
+  color: #ffbf88;
+  text-align: center;
 }
 
 .project_details_img_container {
@@ -119,18 +137,27 @@ body {
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .project_details_img {
-  width: 20%;
+  display: block;
+  max-width: 20rem;
+  max-height: 10rem;
+  width: auto;
   height: auto;
+  transition: transform 0.3s ease;
+}
+
+.project_details_img:hover {
+  transform: scale(1.7);
+  transition: transform 0.3s ease;
 }
 
 .project_details_link_container {
   display: flex;
   gap: 5rem;
-  margin: 2rem 0;
+  margin: 5rem 0;
 }
 .project_details_video {
   text-decoration: none;
