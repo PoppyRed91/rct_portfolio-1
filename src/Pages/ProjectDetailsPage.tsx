@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { Project, projectsList } from "../App";
+import { Project } from "../App";
 
 interface Props {
   projectToDisplay: Project;
